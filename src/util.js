@@ -1,4 +1,5 @@
 import * as posenet from "@tensorflow-models/posenet";
+
 var t=0;
 const color = "aqua";
 export function getMediaStreamConstraints(facingMode, frameRate) {
@@ -21,7 +22,9 @@ export function getConfidentPoses(poses, minPoseConfidence, minPartConfidence) {
 }
 function audioplay(t,audio){
 if(t==0){
+  if(!audio.play()){
   audio.play();
+  }
 }
 }
 export function drawKeypoints(ctx, keypoints) {

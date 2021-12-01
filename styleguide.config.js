@@ -5,11 +5,6 @@ module.exports = {
   pagePerSection: true,
   sections: [
     {
-      name: "Documentation",
-      content: "docs/Documentation.md",
-      components: () => ["./src/components/PoseNet.js"]
-    },
-    {
       name: "Props examples",
       sections: [
         {

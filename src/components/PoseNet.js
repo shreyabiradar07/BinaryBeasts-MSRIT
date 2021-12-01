@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react"
 import PropTypes from "prop-types"
 import Loading from "./Loading"
-import useInputImage from "../hooks/useInputImage"
+ import useInputImage from "../hooks/useInputImage"
 import useLoadPoseNet from "../hooks/useLoadPoseNet"
 import { drawKeypoints, drawSkeleton, getConfidentPoses } from "../util"
 
@@ -56,7 +56,6 @@ export default function PoseNet({
         ctx.drawImage(image, 0, 0, width, height)
         onEstimateRef.current(confidentPoses)
         confidentPoses.forEach(({ keypoints }) => drawKeypoints(ctx, keypoints))
-       
       } catch (err) {
         cleanUp()
         setErrorMessage(err.message)

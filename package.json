@@ -52,7 +52,9 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "husky": "^7.0.4",
     "jest": "^24.9.0",
+    "lint-staged": "^12.1.2",
     "prettier": "^1.19.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
@@ -65,5 +67,16 @@
     "rollup-plugin-peer-deps-external": "^2.2.3",
     "rollup-plugin-terser": "^5.3.0",
     "webpack": "^4.43.0"
+  },
+  "husky":{
+    "hooks":{
+      "pre-commit":"lint-staged"
+    }
+  },
+  "lint-staged":{
+    "*.{js,json,css,md,html}":[
+      "prettier --single-quote --write",
+      "git add"
+    ]
   }
 }

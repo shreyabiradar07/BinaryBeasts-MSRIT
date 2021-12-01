@@ -28,3 +28,4 @@ Patient image is acquired and sent to the Cloud for detecting positioning errors
 assistant.
 
 #### Solution Architechture
+![arch](https://github.com/shreyabiradar07/BinaryBeasts-MSRIT/blob/main/screenshots/architechture.png)

@@ -26,3 +26,5 @@ Patient image is acquired and sent to the Cloud for detecting positioning errors
 - Optimal bucky height and collimation area is estimated based on patient’s physique.
 - The overall feedback regarding positioning error is provided to both patient and the radiologist via a voice
 assistant.
+
+#### Solution Architechture

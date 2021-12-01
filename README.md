@@ -32,7 +32,7 @@ assistant.
 
 #### IMPACT
 - Helps in correcting positioning errors prior to image acquisition
-- Reducing the time and additional dose associated with a repeat exposure while improving image consistency.(Xray
+- Reducing the time and additional dose associated with a repeat exposure while improving image consistency.(X-ray
 Retakes)
 - Its automated features also decrease the time that a radiographer needs to be in close contact with patients for
 positioning — a huge benefit in the presence of infectious diseases.

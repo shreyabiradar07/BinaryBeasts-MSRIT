@@ -2,6 +2,7 @@
 An AI-based smart positioning web app for X-ray workflows.
 
 PS : National winner 🏆 at Phillips Code to Care Challenge'21
+
 #### Problem Statement: AI to evaluate the overall patient body position meeting clinical examination requirement.
 
 #### Observation:

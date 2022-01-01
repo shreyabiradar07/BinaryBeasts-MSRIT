@@ -32,7 +32,7 @@ assistant.
 #### Solution Architechture
 ![arch](https://github.com/shreyabiradar07/BinaryBeasts-MSRIT/blob/main/screenshots/architechture.png)
 
-#### IMPACT
+#### Impact
 - Helps in correcting positioning errors prior to image acquisition
 - Reducing the time and additional dose associated with a repeat exposure while improving image consistency.(X-ray
 Retakes)
@@ -40,6 +40,6 @@ Retakes)
 positioning — a huge benefit in the presence of infectious diseases.
 - Realtime auto upgradation ,storage of images and further datasets for improving the trained models and research
 can be done in a cloud based architecture easily as compared to Hardware solutions.
-#### FUTURE ASPECTS
+#### Future Aspects
 - Can be integrated with Philips Radiology Smart Assistant for further analysing the x-ray acquired.
 - A similar smart workflow can be implemented with Ultrasonic system detection.
